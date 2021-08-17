@@ -1,12 +1,12 @@
 # Line Charts
-# import matplotlib.pyplot as plt
-# decades = ["1970", "1980", "1990", "2000","2010"]
-# average_price = [26.60, 76.40, 149.80, 207.00, 272.90]
-# plt.plot(decades,average_price, color = "#F16059")
-# plt.xlabel("Decade", fontsize=16)
-# plt.ylabel("Home Price in Thousands", fontsize=16)
-# plt.title("Average New Home Price in the U.S.")
-# plt.savefig("home_cost.png")
+import matplotlib.pyplot as plt
+decades = ["1970", "1980", "1990", "2000","2010"]
+average_price = [26.60, 76.40, 149.80, 207.00, 272.90]
+plt.plot(decades,average_price, color = "#F16059")
+plt.xlabel("Decade", fontsize=16)
+plt.ylabel("Home Price in Thousands", fontsize=16)
+plt.title("Average New Home Price in the U.S.")
+plt.savefig("home_cost.png")
 
 # Bar Charts
 import matplotlib.pyplot as plt
