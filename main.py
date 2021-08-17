@@ -21,7 +21,7 @@ plt.savefig("home_price_cities.png")
 # Histograms
 import matplotlib.pyplot as plt
 singles_release_year = [2012,2012,2012,2012,2014,2015,2015,2019,2019]
-bins=[10]
+bins=10
 plt.hist(singles_release_year,bins, histtype="bar", color="#fffacd")
 plt.xlabel("Release Year")
 plt.ylabel("Number of Singles")
